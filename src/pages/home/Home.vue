@@ -1,8 +1,13 @@
 <template>
-  <div>hoemsafkldk</div>
+  <home-header></home-header>
 </template>
 
-<script>export default {name: 'Home'
+<script>import HomeHeader from './components/Header'
+
+export default {name: 'Home',
+  components: {
+    HomeHeader
+  }
 }
 </script>
 
